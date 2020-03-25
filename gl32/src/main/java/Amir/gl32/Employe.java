@@ -3,10 +3,10 @@ package Amir.gl32;
 import java.util.Calendar;
 
 public class Employe {
-	protected String nom;
-	protected String prenom;
+	protected static String nom;
+	protected static String prenom;
 	protected double salaire;
-	protected int annee_debut;
+	protected static int annee_debut;
 	public int  year = Calendar.getInstance().get(Calendar.YEAR);
 
 	public Employe(String nom, String prenom, int annee_debut) {
