@@ -1,13 +1,14 @@
 package Amir.gl32;
 
 /**
- * Hello world!
+ * Class main
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        RH agent = new Employe("John", "Doe", 2002);
+        System.out.println(agent.salaire());
     }
 }
